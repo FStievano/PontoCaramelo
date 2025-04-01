@@ -1,0 +1,59 @@
+header{
+    width: 100vw;
+    height: 10vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 40px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #bf7438;
+}
+
+header div h1{
+    color: whitesmoke;
+}
+
+header .NavBar{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    padding: 0px 10px;
+}
+
+header .NavBar .PageLink{
+    padding: 5px;
+
+    font-size: 130%;
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: #bf7438;
+    color: whitesmoke;
+
+    transition: 200ms;
+
+    &:hover{
+        transform: translateX(-5px);
+        background-color: #844225;
+    }
+}
+
+#PerfilImage{
+    width: 40px;
+    border-radius: 100px;
+
+    border: 2px solid #844225;
+    transition: 200ms;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}

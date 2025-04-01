@@ -1,0 +1,17 @@
+form .InputBox #message{
+    width: 100%;
+    height: 120px;
+
+    padding: 10px 4px;
+    margin-top: 2px;
+
+    font-size: 1.2em;
+    border: 3px solid #724521;
+    border-radius: 8px;
+    outline: none;
+    transition: 300ms;
+
+    &:focus{
+        border: 3px solid #164eb8;
+    }
+}

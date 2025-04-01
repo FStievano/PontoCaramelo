@@ -1,0 +1,73 @@
+form{
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    padding: 40px 0px;
+    margin: 40px 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 3px 6px #724521;
+    background: #bf7438;
+    border-radius: 15px;
+}
+
+form h1{
+    font-size: 3em;
+}
+
+form .InputBox{
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form .InputBox label{
+    font-size: 1.2em;
+    align-self: flex-start;
+}
+
+form .InputBox input{
+    width: 100%;
+
+    padding: 10px 4px;
+    margin-top: 2px;
+
+    font-size: 1.2em;
+    border: 3px solid #724521;
+    border-radius: 8px;
+    outline: none;
+    transition: 300ms;
+
+    &:focus{
+        border: 3px solid #164eb8;
+    }
+}
+
+form button{
+    width: 50%;
+    height: 40px;
+
+    margin-top: 10px;
+
+    font-size: 1.2em;
+    border: none;
+    border: transparent;
+    border-radius: 8px;
+    outline: none;
+
+    cursor: pointer;
+    transition: 200ms;
+
+    &:hover{
+        transform: translateY(-2px);
+        background-color: #724521;
+    }
+}
